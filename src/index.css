@@ -1,0 +1,20 @@
+/* frontend/src/index.css */
+
+/* These are the Tailwind CSS directives. They MUST be at the top. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+Optional: You can add your own custom global CSS here, below the Tailwind directives.
+This is useful for things like default font-families or general body styles
+that apply universally and are not specific to individual components.
+*/
+body {
+  font-family: 'Georgia', serif; /* Using a more traditional font for a philosophy blog */
+  line-height: 1.6; /* Improve readability */
+  background-color: #f0f2f5; /* A subtle light grey background */
+  color: #333; /* Default text color, a dark grey */
+}
+
+/* Any other global custom CSS would go here if needed */
