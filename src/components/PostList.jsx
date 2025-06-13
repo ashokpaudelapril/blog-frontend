@@ -24,7 +24,7 @@ function PostList() {
   }, []);
 
   if (loading) {
-    return <div className="text-center text-lg mt-8">Loading posts...</div>;
+    return <div className="text-center text-lg mt-8"><p>Loading posts...</p><p>Please Wait for 30 seconds or so for Database to load my writings.</p></div>;
   }
 
   if (error) {
