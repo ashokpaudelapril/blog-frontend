@@ -12,7 +12,6 @@ function Home() {
 
       {/* Main Content Area */}
       <main className="container mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Removed: Post Form Section */}
 
         {/* Post List Section */}
         <section>
